@@ -55,7 +55,6 @@ a{
 
 .cart_list {
     font-size: 1.5rem;
-    /* width: 100%; */
 }
 .cart_list_th{
     padding: 0 5px;
@@ -64,7 +63,6 @@ a{
     display: inline-block;
     background-color: teal;
     padding: 8px 12px ;
-    /* width: 100%; */
     font-size: 1.2rem;
     color: #fff;
     text-align: center;
@@ -75,9 +73,8 @@ a{
     display: block;
     position: absolute;
     background-color: #fff;
-    top: 75%;
+    top: 73%;
     right: 0;
-    /* max-width: 800px; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -95,13 +92,13 @@ a{
 }
 .cursos{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
     gap: 25px;
  }
  .card{
     box-shadow: 3px 3px 12px rgba(0,0,0,0.3);
     border-radius: 10px;
-    aspect-ratio: 1 / 1;
+    /* aspect-ratio: 1 / 1; */
  }
  .card_info{
     width: 100%;
@@ -113,7 +110,7 @@ a{
  }
  .card_img{
     width: 100%;
-    height: 240px;
+    aspect-ratio: 1 / 1;
     object-fit: cover;
  }
  .card_info h4 {
@@ -125,11 +122,11 @@ a{
  .agregar-carrito{
     color: teal;
     display: inline-block;
-    padding: 10px 20px;
+    padding: 10px 15px;
     border: 4px solid;
     margin: auto;
     margin-top: 10px;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     font-weight: 700;
     position: relative;
     overflow: hidden;
